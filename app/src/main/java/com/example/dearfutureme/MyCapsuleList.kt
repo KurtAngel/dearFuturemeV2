@@ -21,6 +21,8 @@ class MyCapsuleList : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
 
+//        RetrofitInstance.instance.displayName("Angel")
+
         val paint = binding.tvMyCapsule.paint
         val width = paint.measureText(binding.tvMyCapsule.text.toString())
         binding.tvMyCapsule.paint.shader = LinearGradient(

@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/eTEmailAddress"
+        android:id="@+id/etEmailAddress"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_marginTop="15dp"
@@ -57,7 +57,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/eTPassword"
+        android:id="@+id/etPassword"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
@@ -70,9 +70,9 @@
         android:inputType="textPassword"
         android:padding="16dp"
         android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="@+id/eTEmailAddress"
-        app:layout_constraintStart_toStartOf="@+id/eTEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/eTEmailAddress" />
+        app:layout_constraintEnd_toEndOf="@+id/etEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/etEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailAddress" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/loginBtn"
@@ -87,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eTPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <TextView
         android:id="@+id/textView3"

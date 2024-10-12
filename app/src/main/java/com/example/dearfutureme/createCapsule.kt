@@ -12,6 +12,7 @@ import com.example.dearfutureme.databinding.ActivityCreateCapsuleBinding
 import java.util.Calendar
 
 class createCapsule : AppCompatActivity() {
+
     lateinit var binding: ActivityCreateCapsuleBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
